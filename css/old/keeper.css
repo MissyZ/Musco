@@ -1,0 +1,225 @@
+/* main.css
+// Example CSS using bw-menu.js
+// based upon hansel & petal site by lynda.com
+//
+// by Bill Weinman  http://bw.org/
+// Copyright (c) 2009 BHG LLC
+//
+// Version 1.0
+// Created for Dynamic Menus course at lynda.com
+*/
+
+/* -- global styles -- */
+
+html>/**/body, x:-moz-any-link, x:default { position:relative; left:-0.5px; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CDCDCD;
+    font-family:Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2em;
+}
+
+
+h1, h2 {
+    color: #8aa635;
+    font-size: 1.7em;
+}
+
+
+
+h3 {
+    color: #8aa635;}
+
+p {
+    margin-top: 0;
+}
+
+a:link {
+    color: #38add6;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #8aa635;
+}
+
+a:hover {
+    color: #38add6;
+    text-decoration: none;
+}
+
+/* -- document sections -- */
+
+#wrapper {
+    width: 957px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+#contentwrapper {
+}
+
+#content {
+    width: 884px;
+	height:800px;
+	background-color: #fff;	
+	padding-left: 32px;
+	margin-top: -15px;
+	
+}
+
+#left {
+    width: 173px;
+    padding-top: 40px;
+    padding-left: 20px;
+    float: left;
+}
+
+#left img {
+    width: 173px;
+    height: 223px;
+}
+
+#header img {
+	padding:25px 0 0 30px;
+    width: 137px;
+    height: 73px;
+	border: 0px;
+}
+
+#footer {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+	padding-top:50px;
+    height: 72px;
+    clear: both;
+    text-align: center;
+    font-size: 0.85em;
+    color: #555555;
+}
+
+/* menu */
+
+p#menuHome {
+    float: left;
+    margin-right: 6px;
+}
+
+p#menuHome a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/home_white_16.png);
+    background-repeat: no-repeat;
+}
+
+p#menuHome a:hover {
+    background-image: url(../images/home_green_16.png);
+}
+
+#menuTop {
+    position: relative;
+    padding-top: 20px;
+	padding-left:0px;
+    height: 55px;
+    font-size: 10pt;
+}
+
+#menuTop ul, #menuTop li {
+    margin: 0;
+    padding: 0;
+}
+
+#menuTop ul {
+    list-style-type: none;
+}
+
+
+#menuTop li {
+	
+	background-color: #fff;
+    display: block;
+    width: 128px;
+    height: 17px;
+	vertical-align:bottom;
+}
+
+#menuTop a {
+    display: block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#menuTop a:link, #menuTop a:visited {
+    font-family:Helvetica, Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#menuTop a:hover {
+    color: #31508B;
+}
+
+ul.menuHoriz li {
+    float: left;
+	border-left: 1px solid #CDCDCD;
+}
+
+ul.menuVert {
+	
+    position: absolute;
+    visibility: hidden;
+    top: 37px;
+	border-left: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+	background-color: #fff;
+	vertical-align:middle;
+	
+}
+
+
+/* ul#menuSubOne   { left: 0 top allows us to move the menu down for aesthetics} */  
+ul#menuSubOne   { left: 32px  }
+ul#menuSubTwo   { left: 161px }
+ul#menuSubThree { left: 290px }
+ul#menuSubFour  { left: 419px }
+
+/* three text columns */
+
+#first {
+	    position:absolute;
+        margin-left: 0px;
+        background-color: #cdc;
+        width: 295px;		
+    }
+
+#second {
+	    position:absolute;
+        margin-left: 295px;
+        background-color: #fcc;
+        width: 295px;		}
+
+#third {
+        position: absolute;
+        margin-left: 590px;
+        background-color: #cff;
+        width: 294px;
+    }
+	
+
+	
+#columnwrapper p, h1, h2, h3 {
+	padding-left:5px;
+	padding-right: 5px;
+	
+}
+
+
+
+
+

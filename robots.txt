@@ -1,0 +1,31 @@
+
+
+User-agent: *
+
+Disallow: /scripts/
+
+Disallow: /_private/
+
+Disallow: /_vti_bin/
+
+Disallow: /cgi-bin/
+
+Disallow: /ie/
+
+Disallow: /samples/
+
+Disallow: /srchadm/
+
+Disallow: /webreports/
+
+Disallow:/wtc/
+
+Disallow:/SpryAssets/
+
+Disallow:/lightline/
+
+Disallow: /flash/
+
+Disallow: /_notes/
+
+

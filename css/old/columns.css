@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+html>/**/body, x:-moz-any-link, x:default { position:relative; left:-0.5px; }
+
+#wrapper {
+	width:957px;
+	padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin:0px;
+	background-image:url(../images/bgTile.jpg);
+}
+
+
+h1 { font-size:180% }
+h2 { font-size:140% }
+
+h3 { 
+	
+	height:15px;
+	font-size:115%;
+	border-bottom:1px dotted #333;
+	color:#333;
+	width:200px;
+	}
+
+
+p { line-height:125%;
+	padding-right:5px;
+}
+
+
+
+#masthead img {
+	margin:35px 0 20px 35px;
+	
+}
+
+
+#menuTop {
+	position:relative;
+	width:883px;
+	height:15px;
+    font-size: 12px;
+	margin-left:37px;
+	margin-top:10px;
+}
+
+#menuTop ul, #menuTop li {
+    margin: 0;
+    padding: 0;
+}
+
+#menuTop ul {
+    list-style-type: none;
+}
+
+
+#menuTop li {
+    display: block;
+    width: 128px;
+    height: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+#menuTop a {
+    display: block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#menuTop a:link, #menuTop a:visited {  
+	text-decoration: none;
+	color:#000;
+	}
+
+#menuTop a:hover {
+    color: #31508B;
+}
+
+ul.menuHoriz li {
+    float:left;
+	border-left: 1px solid #CDCDCD;
+}
+
+ul.menuVert {
+	position:absolute;
+    visibility: hidden;
+	border-left: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+	background-color: #fff;
+	top: 17px;
+}
+
+
+/* ul#menuSubOne   { left: 0 top allows us to move the menu down for aesthetics} */  
+ul#menuSubOne   { left: 0px  }
+ul#menuSubTwo   { left: 129px }
+ul#menuSubThree { left: 258px }
+ul#menuSubFour  { left: 387px }
+
+
+#flash {
+	height:300px;
+	width:883px;
+	margin-top:15px;
+	margin-left:37px;
+	margin-bottom:10px;
+	border: 1px solid #CDCDCD;
+	
+}
+
+
+
+
+#content {
+	margin-left:3px;
+	float:left;
+	width:28%;
+	padding-right:10px;
+}
+
+#sidebar_a {
+	float:left;
+	width:280px;
+	margin-left:37px;
+	padding-right:10px;
+	
+}
+
+
+#sidebar_b {
+	float:right;
+	width:290px;
+	margin-right:37px;
+	
+}
+
+#footer {
+	clear:both;
+	text-align:center;
+	font-size:85%;
+	padding:10px;
+}

@@ -1,0 +1,1091 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* **********  main elements   ********************* */
+
+/*  ye olde blue: 1c3664  */
+
+
+
+
+
+
+.phone {
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.keyIssues {
+    margin-bottom: 0px;
+    font-size: 135%;
+    font-weight: bold;
+    color: #4c6d9e;
+}
+
+
+
+.muscoBlue {
+    color: #4c6d9e;
+}
+
+.productHeader {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.freeStuff {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.first {
+    margin-top: 18px;
+
+}
+
+.bigFont {
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.bigFontNews {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.bigFontQuote {
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 175%;
+}
+
+.instruction {
+    color: #333;
+    font-size: 70%;
+    font-weight: normal;
+
+}
+
+.smallFont {
+    font-size: 85%;
+
+}
+
+.seventyFont {
+    font-size: 70%;
+
+}
+
+.name {
+    margin-left: 14px;
+
+}
+
+.blockQuote {
+    text-indent: -0.7em;
+}
+
+.blockNewsQuoteWall {
+    margin-top: 40px;
+    font-size: 150%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.blockNewsQuote {
+    text-indent: -0.5em;
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.blockName {
+    text-indent: -1.2em;
+}
+
+#bottom100 {
+
+    clear: both;
+    margin: 0px 60px -15px 60px;
+}
+
+.ledQuote {
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.partner {
+    margin-bottom: 25px;
+
+}
+
+.formWidth {
+    width: 200px;
+}
+
+img {
+    border-style: none;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+#companyIntro {
+    float: left;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.introCopy {
+    font-size: 120%;
+    margin-bottom: 25px;
+}
+
+
+
+#references {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+#table {
+    margin-top: 15px;
+    line-height: 135%;
+}
+
+.space {
+    margin-top: 7px;
+}
+
+.planning {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 100%;
+    color: #4c6d9e;
+}
+
+/*  use this when you have 4 columns worth of data  */
+.columns {
+    float: left;
+    width: 170px;
+    margin-right: 10px;
+
+}
+
+.spacer {
+    clear: both;
+
+}
+
+/*  **********  50/50 split used on the following pages: overview, location, partnerships, awards, outdoor, indoor, temp,
+controlsystems, parts, finance, controlling, warranty, directory, sales, requestinfo, careers  ********** */
+
+
+
+.slightMargin {
+    margin-left: 9px;
+    padding: 0px;
+}
+
+.slightMargin li {
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.box {
+    float: left;
+    width: 130px;
+    margin-right: 10px;
+}
+
+/*
+Partnership page Mark-ups
+
+*/
+
+.centeredImage {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.rightImage {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#bside50 {
+    float: right;
+    width: 450px;
+    display: inline;
+    margin-right: 30px;
+}
+
+#paside {
+    clear: left;
+    float: left;
+    width: 600px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#paside img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pbside {
+    float: left;
+    width: 290px;
+    display: inline;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#bside50 img {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+/*
+Partnership form Mark-ups
+
+*/
+
+#partnerMiddle {
+    width: 240px;
+    float: left;
+
+}
+
+#partnerRight {
+    float: right;
+    width: 380px;
+
+}
+
+#partnerLeft {
+    float: left;
+    width: 380px;
+
+}
+
+#partnerRight fieldset {
+    font: 12px Helvetica, Arial, sans-serif;
+    width: 380px;
+    float: left;
+    border: none;
+}
+
+#partnerRight legend {
+    margin-left: 123px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#partnerRight fieldset ol {
+    padding: 5px 1em 0 1em;
+    list-style: none;
+}
+
+#partnerRight fieldset li {
+    float: left;
+    clear: left;
+    width: 380px;
+    padding-bottom: 3px;
+}
+
+#partnerRight fieldset.submit {
+    clear: both;
+    width: auto;
+    border: 0 none #FFF;
+    padding-left: 12em;
+}
+
+#partnerRight label {
+    margin-top: 4px;
+    float: left;
+    width: 76px;
+    margin-right: 3px;
+    text-align: right;
+}
+
+/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on case study pages----- */
+
+
+
+.caseHeader {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on the news and events page----- */
+
+
+
+/*  **********  70/30  used on the following page: LSG --maybe more in the future  ********** */
+
+
+
+/*-----  3 column markup used on the directory pages----- */
+
+
+
+
+
+/* form used on submit forms mark-up  */
+
+fieldset {
+    font: 12px Helvetica, Arial, sans-serif;
+    width: 438px;
+    padding: 0;
+    border: none;
+}
+
+legend {
+    margin-left: 5px;
+    color: #000000;
+    font-weight: bold;
+}
+
+fieldset ol {
+    padding: 5px 1em 0 1em;
+    list-style: none;
+}
+
+fieldset li {
+    float: left;
+    clear: left;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+fieldset.submit {
+    clear: both;
+    width: auto;
+    border: 0 none #FFF;
+    padding-left: 12em;
+}
+
+label {
+    margin-top: 4px;
+    float: left;
+    width: 10em;
+    margin-right: 3px;
+    text-align: right;
+}
+
+/* used for lightbox photo gallery mark-up  */
+
+#lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+
+#lightbox img {
+    width: auto;
+    height: auto;
+}
+
+#lightbox a img {
+    border: none;
+}
+
+#outerImageContainer {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#imageContainer {
+    padding: 10px;
+}
+
+#loading {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+#hoverNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#imageContainer > #hoverNav {
+    left: 0;
+}
+
+#hoverNav a {
+    outline: none;
+}
+
+#prevLink, #nextLink {
+    width: 49%;
+    height: 100%;
+    background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+    display: block;
+}
+
+#prevLink {
+    left: 0;
+    float: left;
+}
+
+#nextLink {
+    right: 0;
+    float: right;
+}
+
+#prevLink:hover, #prevLink:visited:hover {
+    background: url(../images/prevlabel.gif) left 15% no-repeat;
+}
+
+#nextLink:hover, #nextLink:visited:hover {
+    background: url(../images/nextlabel.gif) right 15% no-repeat;
+}
+
+#imageDataContainer {
+    font: 10px Verdana, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+    overflow: auto;
+    width: 100%;
+}
+
+#imageData {
+    padding: 0 10px;
+    color: #666;
+}
+
+#imageData #imageDetails {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+
+#imageData #caption {
+    font-weight: bold;
+}
+
+#imageData #numberDisplay {
+    display: block;
+    clear: left;
+    padding-bottom: 1.0em;
+}
+
+#imageData #bottomNavClose {
+    width: 66px;
+    float: right;
+    padding-bottom: 0.7em;
+    outline: none;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+}
+
+/**
+ * Custom Search Engine
+ *
+ */
+/* Slight reset to make the preview have ample padding. */
+
+/*
+mark up for the news page
+*/
+
+.pressReleaseBody{
+    margin: 15px 130px 15px 130px;
+    font-size: 98%;
+    line-height: 120%;
+}
+
+.pressHeader{
+    font-weight: bold;
+    color: #4c6d9e;
+    margin-bottom: -8px;
+}
+
+.pressReleaseBody h1{
+    color: #333333;
+    margin: 0;
+}
+
+.pressReleaseDate{
+    font-size: 80%;
+    color: #afafaf;
+}
+
+.newsDate{
+    font-size: 12px;
+   }
+
+.newsPost{
+    display: table;
+    width: 900px;
+    height: 80px;
+    border-bottom: 1px solid #afafaf;
+    line-height: 150%;
+}
+
+.newsPost img{
+    float: left;
+    margin: 10px 0 10px 0;
+}
+
+.newsPostText {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 0;
+    width: 800px;
+}
+
+#newsFull {
+    clear: left;
+    float: left;
+    width: 900px;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#newsAside {
+    clear: left;
+    float: left;
+    width: 430px;
+    display: inline;
+    margin-left: 30px;
+}
+
+#newsAside img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+}
+
+#newsBside {
+    float: right;
+    width: 450px;
+    display: inline;
+    margin-right: 30px;
+}
+
+#newsBside img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+}
+
+.title, .projectShowcase {
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.projectShowcase img {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    padding: 0px;
+}
+
+.copy {
+    margin-top: 0px;
+}
+
+.newsSpacer {
+    clear: left;
+}
+
+.lightGrey {
+    color: #868686;
+
+}
+
+/* embedded YouTube video */
+#videobox {
+    position: relative;
+    z-index: -999;
+
+}
+
+.jvw {
+    border: solid 1px #cdcdcd;
+    padding: 15px 25px 15px 25px;
+    text-align: left;
+}
+
+.newsBody{
+    margin: 15px 30px 15px 30px;
+    font-size: 120%;
+}
+
+.newsBody h1{
+    margin: 20px 0 0 0;
+    padding: 0px;
+    font-size: 135%;
+    color: #333;
+}
+
+.pressBody{
+    margin: 15px 35px 15px 30px;
+
+}
+
+.pressBody h1{
+    margin: 0;
+}
+
+.pressBody hr{
+    margin: 10px;
+    border-top: 1px solid red;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+
+
+ 
+
+.bwlistitemmargb {
+    margin-bottom: 10px;
+}
+ 
+#bside_33_border {
+    float: right;
+    width: 295px;
+    display: inline;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin-right: 10px;
+    border-left: solid 1px #CDCDCD;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+/*===== Global =====*/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    color: #333;
+    background-image: url(../images/stripe.jpg);
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+    line-height: 145%;
+
+}
+
+
+h1 {
+    color: #4c6d9e;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 0px;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4c6d9e;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: red;
+    font-size: 115%;
+    font-weight: bold;
+    height: 15px;   
+}
+
+/*underlines the h3 headers*/
+
+.dottedLine {  
+    border-bottom: 1px dotted #333;
+    color: #333;
+    font-size: 115%;
+    font-weight: bold;
+    height: 15px;   
+}
+
+h4 {
+    color: #4c6d9e;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+    float: right;
+    font-size: 135%;
+    color: #4c6d9e;
+}
+
+h6 {
+
+    height: 15px;
+    font-size: 115%;
+    border-bottom: 1px dotted #333;
+    color: #333;
+    width: 900px;
+}
+
+a:link {
+    color: #4c6d9e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c6d9e;
+}
+
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: -5px;
+    border-top: 3px solid #CDCDCD;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+
+
+/*   ************ top of the page used by all pages on the site  ************  */
+
+.breadcrumb {
+    background-color: #fff;
+    color: #333;
+    font-size: 75%;
+    margin-left: -10px;
+    margin-top: 40px !important;
+    padding-bottom: 15px;
+}
+
+#masthead {
+    height: 100px;
+    margin: 0;
+}
+
+#masthead a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#masthead a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#masthead a:hover {
+    color: #FFF;
+}
+
+.col-xs-6#search    {
+    width: 46%;
+}
+
+.statement {
+    color: #4c6d9e !important;
+    font-size: 175%;
+    line-height: 175%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#searchContainer {
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: inline;
+    text-align: right;
+}
+
+
+.makeItHappen {
+    margin-top: 11px;
+    margin-bottom: 7px;
+    padding-bottom: 0px;
+
+}
+
+
+/*===== Navigation =====*/
+
+.navbar {
+    background-color: #fff;
+    border: none;
+    min-height: 30px !important;
+    margin-bottom: 0;
+}
+
+.navbar .col-xs-offset-1 {
+    margin-left: 7.333%;
+}
+
+.navbar-default .navbar-nav>li>a  {
+    background-color: #fff;
+    color: #4c6d9e;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    padding-left: 0;
+}
+
+.navbar-toggle {
+    float: left;
+}
+
+nav ul li {
+    margin-left: 0px;
+    margin-right: 27px;
+    text-align: left;
+}
+
+.nav a:hover {
+    background-color: #fff;
+    color: #8B909A;
+
+}
+
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px BlinkMacSystemFont;
+}
+
+
+
+/*====== Content ======*/
+
+.statement {
+    color: #4c6d9e;
+    font-size: 175%;
+    line-height: 175%;
+    padding: 25px 0;
+    text-align: center;
+}
+    
+.contentContainer h2 {
+    color: #333;
+}    
+
+.contentContainer h3 {
+    margin-bottom: 15px;
+}
+
+.contentContainer .col-xs-3{
+    width: 27.5%;
+}
+
+.contentContainer a:link {
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.contentContainer a:visited, .boldAndBlue {
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.contentContainer a:hover {
+    color: #333;
+    font-weight: bold;
+}
+
+.contentContainer hr {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 1px;
+    border-top: 1px solid #CDCDCD;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.contentContainer br {
+    line-height: 10%;
+} 
+
+/*===== Footer =====*/
+
+
+footer {
+    color: #949494;
+    font-size: 85%;
+    height: 95px;
+    margin-top: 30px;
+}
+
+footer hr {
+    border-top: 1px dotted #949494;
+    margin-bottom: 15px;
+    margin-left: 13.5%;
+    width: 71%;
+}
+
+#footerSMI {
+    float: right;
+
+}
+
+#footerSMI a {
+    
+    padding-right: 8px;
+}
+
+footer a:link {
+    color: #949494;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #949494;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #949494;
+}
+
+
+ /*=====  Carousel ==== */
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*===== About Us Page =====*/
+
+
+#weMakeIt h1 {
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+/*.col-xs-5.col-xs-offset-1#weMakeIt,  .col-md-5.col-md-offset-1#weMakeIt {
+    margin-left: 7.333%;
+}*/
+
+.contactUsHeader {
+    padding: 0px;
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.aboutUsContentLinks {
+    font-size: 100%;
+}
+
+/*===== Career Page ======*/
+
+#careerImg {
+    margin-top: 12px;
+}
+
+
+/*===== Contact Us Page =====*/
+
+#contactUsHeader {
+    margin-top: 5px;
+}
+
+#contactUsFindRep {
+    color: #4c6d9e;
+    font-size: 95%;
+}
+
+
+
+
+

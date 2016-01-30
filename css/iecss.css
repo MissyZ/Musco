@@ -1,0 +1,678 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* **********  main elements   ********************* */
+
+/*  ye olden blue: 1c3664  */
+
+
+/*  ye olde blue: 1c3664  */
+
+
+html {overflow-y: scroll;}
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	color:#333;
+	background-image:url(../images/1x10px.jpg);
+	background-repeat: repeat;
+	background-color:#666;
+	line-height:145%;
+}
+
+
+h1 { 
+	margin-top:20px; 
+	margin-left:30px; 
+	margin-bottom:0px;
+	padding:0px;
+	font-size:135%;
+	color:#4c6d9e;
+	}
+	
+h2 { font-size:120%;
+	font-weight:bold;
+	color:#4c6d9e;
+}
+
+h4 { 
+	color:#4c6d9e;
+	font-size:120%;
+	font-weight:bold;
+}
+
+#logo {
+	float:left;
+	width:450px;
+		
+}
+
+#search{
+	height:75px;
+	margin-top:0px;
+	padding-top: 0px;
+	float: right;
+	text-align:right;
+	width: 450px;
+	display: inline;
+}
+
+.makeItHappen{
+	text-align:left;
+	margin-left:185px;
+	margin-top:11px;
+	margin-bottom:7px;
+	padding-bottom:0px;
+	
+}
+
+.formWidth{
+       width:195px;   
+   }
+
+
+
+.keyIssues { 
+	margin-bottom:0px;
+	font-size:135%;
+	font-weight:bold;
+	color:#4c6d9e;
+	}
+
+.breadCrumb{
+	font-size:75%;
+	margin-left:30px;
+	padding-top:15px;
+	
+}
+
+.muscoBlue{
+	color:#4c6d9e;
+}
+
+.productHeader {
+	font-size:120%;
+	font-weight:bold;
+}
+
+.freeStuff{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.first  {
+	margin-top:18px;
+	
+}
+
+.bigFont { 
+	font-size:135%;
+	color:#4c6d9e;
+	font-weight:bold;
+	}
+
+.smallFont {
+	margin-top:-15px;
+	font-size:85%;
+	
+}
+
+
+.name {
+	margin-left:14px;
+	
+}
+
+.blockQuote {
+	text-indent: -0.7em;
+	}
+
+.blockName {
+	text-indent: -1.2em;
+	}
+
+
+.partner{
+	margin-bottom:25px;
+	
+}
+
+h3 { 
+	
+	height:15px;
+	font-size:115%;
+	border-bottom:1px dotted #333;
+	color:#333;
+	width:287px;
+	}
+
+
+
+img{
+	border-style: none;
+}
+
+
+a:link{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#4c6d9e;
+}
+
+a:visited {
+	color:#333;
+	text-decoration:none;
+}
+
+
+
+#marginCall {
+	margin-left:30px;
+	margin-right:30px;
+	
+}
+
+
+#wrapper {
+	width:960px;
+	padding: 0px;
+	margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+}
+
+#contentContainer
+{
+	float: left;
+	width: 960px;
+	margin-top:-5px;
+	
+}
+
+
+#contentContainer a:link{
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+
+#contentContainer a:visited {
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+#contentContainer a:hover{
+	color:#333;
+	font-weight:bold;
+}
+
+#contentContainer hr {
+	text-align:left;
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:-5px;
+	border-top:3px solid #CDCDCD; 
+	border-bottom:0px;
+	border-right:0px;
+	border-left:0px;	
+}
+
+
+#footer {
+	clear:both;
+	text-align:center;
+	font-size:85%;
+	padding:20px;
+}
+
+
+
+#sideA {
+	float:left;
+	width:293px;
+	margin-left:30px;
+	font-weight:bold;
+	
+}
+
+#sideA  hr {
+	margin-top:0px;
+	margin-left:0px;
+	width:283px;
+	border-top:1px solid #333; 
+}
+
+#middle {
+	width:293px;
+	margin-left:10px;
+	float:left;
+	
+}
+
+#sideB {
+	float:right;
+	width:293px;
+	margin-left:10px;
+	margin-right:30px;
+	
+}
+
+
+#references {
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:25px;
+}
+
+
+#table {
+	margin-top:15px;
+	line-height:135%;
+}
+
+.space { 
+	margin-top: 7px; 
+}
+	 
+
+/*  use this when you have 4 columns worth of data  */
+.columns {
+	float : left;
+	width : 170px;
+	margin-right:10px;
+	
+ 
+} 
+
+.spacer{
+	clear:both;
+	
+}
+
+/*  **********  50/50 split used on the following pages: overview, location, partnerships, awards, outdoor, indoor, temp,
+controlsystems, parts, finance, controlling, warranty, directory, sales, requestinfo, careers  ********** */
+
+#aside50{
+	clear: left;
+	float: left;
+	width: 430px;
+	display: inline;
+	margin-left:30px;
+}
+
+
+
+#aside50 a:link{
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+
+
+#aside50 a:visited {
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+#aside50 a:hover{
+	color:#333;
+	font-weight:bold;
+}
+
+
+.box {
+	float : left;
+	width : 130px;
+	margin-right:10px;
+} 
+
+
+
+/*
+Partnership page Mark-ups
+
+*/
+#bside50{
+	float: right;
+	width: 450px;
+	display: inline;
+	margin-right:30px;
+}
+
+
+#paside50{
+	clear: left;
+	float: left;
+	width: 450px;
+	display: inline;
+	margin-left:30px;
+}
+
+#paside50 img{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+
+#pbside50{
+	border:2px #cdcdcd solid;
+	float: right;
+	width: 390px;
+	display: inline;
+	margin-top:10px;
+	margin-right:30px;
+	margin-left:30px;
+}
+
+
+
+
+
+#bside50 img {
+	margin-top:15px;
+	margin-bottom:40px;
+}
+
+.freeStuff{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+
+/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on case study pages----- */
+
+#aside_66{
+	clear:left;
+	float: left;
+	width: 600px;
+	display: inline;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#bside_33{
+	float:right;
+	width: 270px;
+	display: inline;
+	margin-top:15px;
+	margin-right:30px;
+	}
+
+#bside_33 ul {
+
+	margin-top:-5px;
+}
+
+.caseHeader {
+	font-weight:bold;
+	margin-left:30px;
+}
+
+
+/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on the news and events page----- */
+
+#aside_2_thirds{
+	clear: left;
+	float: left;
+	width: 630px;
+	display: inline;
+	margin-left:30px;
+}
+
+#bside_2_thirds{
+	float: right;
+	width: 250px;
+	display: inline;
+	margin-bottom:25px;
+}
+
+#bside_2_thirds img {
+	border:1px solid #666;
+	margin-top:15px;
+}
+
+
+/*  **********  70/30  used on the following page: LSG --maybe more in the future  ********** */
+
+#aside30{
+	clear: left;
+	float: left;
+	width: 358px;
+	display: inline;
+	margin-left:30px;
+}
+
+#aside30 a:link{
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+
+
+#aside30 a:visited {
+	color:#4c6d9e;
+	font-weight:bold;
+}
+
+#aside30 a:hover{
+	color:#333;
+	font-weight:bold;
+}
+
+
+#bside70{
+	float: right;
+	width: 474px;
+	display: inline;
+	margin-right:30px;
+}
+
+#bside70 img {
+	margin-top:15px;
+	margin-bottom:40px;
+}
+
+/*-----  3 column markup used on the directory pages----- */
+
+#aside_left{
+	clear: left;
+	float: left;
+	width: 200px;
+	display: inline;
+	margin-left:30px;
+}
+
+#bside_mid{
+	float: left;
+	width: 200px;
+	display: inline;
+	
+}
+
+
+/*   ************ top of the page used by all pages on the site  ************  */
+
+
+#masthead {
+	width:900px;
+	height:125px;
+	margin:0 30px 0 30px;
+	
+}
+
+#masthead img {
+		margin-top:15px;
+		
+}
+
+#masthead a:link{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#masthead a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#masthead a:hover{
+	color:#FFF;
+}
+
+/*  **********  The Menu  ********** */
+
+#menuContainer{
+	height:40px;
+	margin-left:30px;
+}
+
+
+#nav, #nav ul{
+	margin:0px;
+	padding:0;
+	list-style-type:none;
+	position:absolute;
+	line-height:1.5em;
+	width:930px;
+}
+
+#nav a{
+	display:block;
+	padding:0px 5px;
+	color:#333;
+	text-decoration:none;
+	background-color:#fff;
+}
+
+#nav a:hover{
+	background-color:#fff;
+	color:#4c6d9e;
+	
+}
+
+#nav li{
+	margin-right:52px;
+	float:left;
+}
+
+#nav ul {
+	display:none;
+	width:128px;
+	top:1.5em;
+}
+
+#nav li ul a{
+	width:118px;
+	height:auto;
+	float:left;
+}
+
+#nav ul ul{
+	top:auto;
+}	
+
+#nav li ul ul {
+	margin:0px 0 0 10px;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{
+	display:none;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
+	border-left: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+}
+
+
+
+
+/*flashContent  */
+#flashContent {
+		margin:0 0 10px 30px;
+}
+
+
+
+/* form used on submit forms mark-up  */
+
+fieldset {   
+	font: 12px Helvetica, Arial, sans-serif;
+	width: 438px;    
+	padding: 0;  
+	border:none;
+} 
+
+legend {
+	margin-left: 50px;  
+	color: #000000;  
+	font-weight: bold;  
+}  
+
+fieldset ol {  
+	padding: 5px 1em 0 1em;  
+	list-style: none;  
+}  
+
+fieldset li {    
+	float: left;    
+	clear: left;    
+	width: 100%;    
+	padding-bottom: 3px;  
+}  
+
+fieldset.submit {
+	clear:both;
+	width: auto;    
+	border: 0 none #FFF;    
+	padding-left: 12em;  
+}
+
+label {    
+	margin-top: 4px;
+	float: left;    
+	width: 10em;    
+	margin-right: 3px;    
+	text-align: right;  
+}
+
+
+/* used for lightbox photo gallery mark-up  */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #333; }

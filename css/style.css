@@ -1,0 +1,11 @@
+.fl{ float:left;}
+
+.slidepart{ width:900px; height:300px; overflow:hidden; position:relative; }
+.slidepart img {position:absolute; }
+
+ul.slpagination{ margin:0px; padding:0px; list-style:none; font-family:arial; float:right; }
+ul.slpagination li{ margin:0px; padding:0px; list-style:none; float:left; }
+ul.slpagination li a.prev{ width:5px; height:16px; display:block; margin-top: 5px; }
+ul.slpagination li a.next{ width:5px; height:16px; display:block; margin-top: 5px; }
+ul.slpagination li a.number{ width:16px; height:16px ; display:block; text-align:center; margin:0px 0px; font-size:14px; font-weight:bold; color:#d1d3d4; text-decoration:none; margin-top: 5px; }
+ul.slpagination li a.select{background:url(../images/select_sl.png) no-repeat;color:#fff; margin-top: 5px; }

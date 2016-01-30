@@ -1,0 +1,39 @@
+/*
+ * jQuery Nivo Slider v1.8
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2010, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+
+
+#gallery{
+    border:#000 solid 5px;
+}
+p{
+    margin:20px 0;
+}
+pre{
+    color:#933;
+}
+.tclass{
+    cursor:pointer;
+    display:inline;
+    float:left;
+    min-width:8px;
+    min-height:6px;
+    padding:5px;
+    margin-right:10px;
+}
+.ac{
+    border-bottom:#333 solid 1px;
+}
+a{
+    color:#000;
+}

@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#wrapper {
+	width:957px;
+	padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	margin:0px;
+	background-color:#666;
+}
+
+
+h1 { font-size:135% }
+h2 { font-size:140% }
+
+h3 { 
+	
+	height:15px;
+	font-size:115%;
+	border-bottom:1px dotted #333;
+	color:#333;
+	width:200px;
+	}
+
+
+p { line-height:125%;
+	padding-right:5px;
+}
+
+a:link{
+	color:#00319c;
+	text-decoration:none;
+}
+
+
+#masthead {
+	width:883px;
+	height:133px;
+	margin:0 37px 0 37px;
+	
+}
+
+#masthead img {
+		margin-top:35px;
+		
+}
+	
+
+#menuTop {
+	position:relative;
+	width:883px;
+	height:20px;
+    font-size: 12px;
+	margin-left:37px;
+	margin-top:5px;
+}
+
+#menuTop ul, #menuTop li {
+    margin: 0;
+    padding: 0;
+}
+
+#menuTop ul {
+    list-style-type: none;
+}
+
+
+#menuTop li {
+    display: block;
+    width: 128px;
+    height: 12px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+#menuTop a {
+    display: block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#menuTop a:link, #menuTop a:visited {  
+	text-decoration: none;
+	color:#000;
+	}
+
+#menuTop a:hover {
+    color: #31508B;
+}
+
+ul.menuHoriz li {
+    float:left;
+	border-left: 1px solid #CDCDCD;
+}
+
+ul.menuVert {
+	position:absolute;
+    visibility: hidden;
+	border-left: 1px solid #CDCDCD;
+	border-bottom: 1px solid #CDCDCD;
+	background-color: #fff;
+	top: 17px;
+}
+
+
+/* ul#menuSubOne   { left: 0 top allows us to move the menu down for aesthetics} */  
+ul#menuSubOne   { left: 0px  }
+ul#menuSubTwo   { left: 129px }
+ul#menuSubThree { left: 258px }
+ul#menuSubFour  { left: 387px }
+
+
+#flash {
+	height:300px;
+	width:883px;
+	margin-top:15px;
+	margin-left:37px;
+	margin-bottom:10px;
+	border: 1px solid #CDCDCD;
+	
+}
+
+
+#twoColumnWrapper{
+	width:920px;
+}
+
+#twoColumnWrapper img { border:2px solid #CDCDCD  }
+
+#twoColumnWrapper hr {
+	text-align:left;
+	margin-left:37px;
+	border-top:5px solid #CDCDCD; 
+	border-bottom:0px;
+	border-right:0px;
+	border-left:0px;	
+	margin-top:10px;
+	
+}
+
+
+
+#twoColumnFirst {
+	
+	margin:10px 0 50px 50px;
+	width: 225px;
+	float:left;
+}
+
+#twoColumSecond {
+	margin-top:55px;
+	width: 590px;
+	float:right;
+	margin-right:13px;
+	
+}
+
+
+
+#content {
+	margin-left:3px;
+	float:left;
+	width:31%;
+}
+
+#sidebar_a {
+	float:left;
+	width:290px;
+	margin-left:37px;
+	
+}
+
+
+#sidebar_b {
+	float:right;
+	width:290px;
+	margin-right:37px;
+	
+}
+
+#footer {
+	clear:both;
+	text-align:center;
+	font-size:85%;
+	padding:10px;
+	border-bottom:1px solid #333;
+}

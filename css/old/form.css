@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+fieldset {   
+	font: 12px Helvetica, Arial, sans-serif;
+	float: left;    
+	clear: left;    
+	width: 438px;    
+	margin: 0 0 1.5em 0;    
+	padding: 0;  
+	border:1px solid white;
+} 
+
+legend {
+	margin-left: 1em;  
+	color: #000000;  
+	font-weight: bold;  
+}  
+
+fieldset ol {  
+	padding: 5px 1em 0 1em;  
+	list-style: none;  
+}  
+
+fieldset li {    
+	float: left;    
+	clear: left;    
+	width: 100%;    
+	padding-bottom: 3px;  
+}  
+
+fieldset.submit {    
+	float: none;    
+	width: auto;    
+	border: 0 none #FFF;    
+	padding-left: 12em;  
+}
+
+label {    
+	margin-top: 4px;
+	float: left;    
+	width: 10em;    
+	margin-right: 3px;    
+	text-align: right;  
+}
+
+#bigWrapper {
+	background-color:#FFF;
+	
+}
+
+#bottomWrapper {
+	margin-left:37px;
+	width: 957px;
+	height:350px;
+	
+}
+
+#right {
+	float:right;
+	width:500px;
+	margin-right:25px;
+}
+
+#left {
+	float:left;
+	width:408px;
+	
+}
+
+
+
+#flash {
+	height:1000px;
+	width:957px;
+}
