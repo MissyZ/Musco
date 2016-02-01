@@ -17,12 +17,7 @@
     margin-left: 30px;
 }
 
-.keyIssues {
-    margin-bottom: 0px;
-    font-size: 135%;
-    font-weight: bold;
-    color: #4c6d9e;
-}
+
 
 
 
@@ -45,23 +40,7 @@
 
 }
 
-.bigFont {
-    font-size: 135%;
-    color: #4c6d9e;
-    font-weight: bold;
-}
 
-.bigFontNews {
-    font-size: 120%;
-    font-weight: bold;
-}
-
-.bigFontQuote {
-    font-size: 135%;
-    color: #4c6d9e;
-    font-weight: bold;
-    line-height: 175%;
-}
 
 .instruction {
     color: #333;
@@ -85,29 +64,7 @@
 
 }
 
-.blockQuote {
-    text-indent: -0.7em;
-}
 
-.blockNewsQuoteWall {
-    margin-top: 40px;
-    font-size: 150%;
-    color: #4c6d9e;
-    font-weight: bold;
-    line-height: 135%;
-}
-
-.blockNewsQuote {
-    text-indent: -0.5em;
-    font-size: 135%;
-    color: #4c6d9e;
-    font-weight: bold;
-    line-height: 135%;
-}
-
-.blockName {
-    text-indent: -1.2em;
-}
 
 #bottom100 {
 
@@ -330,26 +287,6 @@ Partnership form Mark-ups
     text-align: right;
 }
 
-/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on case study pages----- */
-
-
-
-.caseHeader {
-    font-weight: bold;
-    margin-left: 30px;
-}
-
-/*-----  2 column markup 1st column(a side) uses 2/3 of the horiz space  used on the news and events page----- */
-
-
-
-/*  **********  70/30  used on the following page: LSG --maybe more in the future  ********** */
-
-
-
-/*-----  3 column markup used on the directory pages----- */
-
-
 
 
 
@@ -502,9 +439,7 @@ mark up for the news page
     padding: 0px;
 }
 
-.copy {
-    margin-top: 0px;
-}
+
 
 .newsSpacer {
     clear: left;
@@ -659,15 +594,18 @@ h6 {
 
 a:link {
     color: #4c6d9e;
+    font-weight: 700;
     text-decoration: none;
 }
 
 a:hover {
     color: #4c6d9e;
+    font-weight: 700;
 }
 
 a:visited {
     color: #333;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -952,6 +890,22 @@ footer a:hover {
 
 /*===== Sports Lighting ===== */
 
+.copy {
+    margin-top: 0px;
+    max-width: 600px;
+}
+
+.keyIssues {
+    margin-bottom: 0px;
+    font-size: 135%;
+    font-weight: bold;
+    color: #4c6d9e;
+}
+
+.sportsSubHeaders {
+    margin-left: -15px;
+}
+
     /* ====== Outdoor Custom Fabrication ===== */
 
 #customHeading {
@@ -1092,5 +1046,70 @@ footer a:hover {
     width: 100%;
     height: 500px;
     background-color: #333;
+}
+
+/*===== News =====*/
+
+.caseHeader {
+    font-weight: bold;
+}
+
+.bigFont {
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.bigFontNews {
+    font-size: 120%;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bigFontQuote {
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 175%;
+}
+
+.blockQuote {
+    text-indent: -0.7em;
+}
+
+.blockNewsQuoteWall {
+    margin-top: 40px;
+    font-size: 150%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.blockNewsQuote {
+    text-indent: -0.5em;
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+    line-height: 135%;
+}
+
+.blockName {
+    text-indent: -1.2em;
+}
+
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
