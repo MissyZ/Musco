@@ -3,7 +3,14 @@
 <head>
 <meta name="generator" content="HTML Tidy for Linux (vers 6 November 2007), see www.w3.org" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="../../css/css.css" />
+
+<!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/css.css" />
 <script type="text/javascript" src="../../scripts/jquery.js">
 </script>
 <script type="text/javascript" src="../../scripts/menu.js">
@@ -33,54 +40,99 @@
 
 	</script>
 </head>
-<body>
-<div id="wrapper">
-<div class="breadCrumb">You are here: <a href="../../index.html">Home &gt;</a> <a href="../sales.html">Sales Representatives &gt;</a> <a href="../ussales.html">US Sales</a> &gt; Massachusetts</div>
-<div id="masthead">
-    <div id="logo">
-    <a href="../../index.html"><img src="../../images/muscoLogo2.png" width="137" height="73" alt="Musco Lighting Logo" /></a>
-    </div>
+<body >
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <ol class="breadcrumb">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../sales.html">Sales Representatives</a></li>
+        <li><a href="../ussales.html">US Sales</a></li>
+        <li class="active">Massachusetts</li>
+        </ol>
+      </div><!-- col -->
+    </div><!-- row -->
+  </div><!-- container -->  
+
+   <!-- ========== Masthead =========  -->
+
+  <div class="container">
+    <div id="masthead">
+      <div class="row">
     
- <div id="search">
- <p class="makeItHappen"><img src="../../images/ML_WMIH.jpg" width="264" height="16" alt="Musco Sports Lighting We Make It Happen" /></p>
+        <div class="col-md-4 col-md-offset-1"> 
+            <a href="../index.html"><img class="img-responsive" src="../../images/muscoLogo2.png" width="137" height="73" alt="Musco Lighting Logo" /></a>
+        </div><!-- col -->
+         <div class="col-md-6">
+         <div class="searchContainer">
+          <p class="makeItHappen"><img class="img-responsive" src="../../images/ML_WMIH.jpg" width="264" height="16" alt="Musco Sports Lighting We Make It Happen" /></p>
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('search', '1');
+      google.setOnLoadCallback(function() {
+        google.search.CustomSearchControl.attachAutoCompletion(
+          '016170081084010386661:wur9tp673c8',
+          document.getElementById('q'),
+          'cse-search-box');
+      });
+    </script>
+        <form action="http://www.musco.com/searchresults.html" id="cse-search-box">
+          
+            <input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8" />
+            <input type="hidden" name="cof" value="FORID:10;NB:1" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input class="formWidth" name="q" id="q" />
+            <input type="submit" name="sa" value="Search" />
+        </form>
+        </div><!-- search -->
+      </div><!-- col -->
+     </div><!-- row -->
+    </div><!-- masthead -->
+  </div><!-- container -->
+   
+<!-- =========== Navigation ===========  -->
+
  
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">
-  google.load('search', '1');
-  google.setOnLoadCallback(function() {
-    google.search.CustomSearchControl.attachAutoCompletion(
-      '016170081084010386661:wur9tp673c8',
-      document.getElementById('q'),
-      'cse-search-box');
-  });
-</script>
-    <form action="http://www.musco.com/searchresults.html" id="cse-search-box">
-      
-        <input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8" />
-        <input type="hidden" name="cof" value="FORID:10;NB:1" />
-        <input type="hidden" name="ie" value="UTF-8" />
-        <input class="formWidth" name="q" id="q" />
-        <input type="submit" name="sa" value="Search" />
-    </form>
-</div>
-  </div> <!--end of masthead -->
-<div id="menuContainer">
-<ul id="nav">
-<li><a href="../../aboutus/overview.html">About Us</a>
-                     
-					</li>
-           		  			<li><a href="../../sports/sports.html">Sports Lighting</a></li>
-           		  			<li><a href="../../largearea/largearea.html">Large Area Lighting</a></li>
-           		  			<li><a href="../../temporary/temporary.html">Temporary Lighting</a></li>
-                    		<li><a href="../../clink/controlsystems.html">Facility Management</a></li>
-                    			<li><a href="../../news/newsprojects.html">News & Projects</a>
-                
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="../../aboutus/overview.html">About Us</a></li>
+              <li><a href="../../sports/sports.html">Sports Lighting</a></li>
+              <li><a href="../../largearea/largearea.html">Large Area Lighting</a></li>
+              <li><a href="../../temporary/temporary.html">Temporary Lighting</a></li>
+              <li><a href="../../clink/controlsystems.html">Facility Management</a></li>
+              <li><a href="../../news/newsprojects.html">News &amp; Projects</a></li>          
+           </ul>
+          </div><!-- myNavBor -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div> <!--container -->
+    </nav><!--navbar -->
     <!-- end of the menu-->
-<div id="contentContainer">
-<hr />
+
+<!-- ====== Content Section ===== -->
+    
+  <section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <hr />
+        </div><!-- col -->
+      </div><!-- row -->
+
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1" >
 <h1>Massachusetts</h1>
 	<p class="phone"><strong>
      		For initial estimates & planning assistance call toll free: 800.825.6030</strong></p>

@@ -2,7 +2,12 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
 
     <!--[if lt IE 8]>
     <link rel="stylesheet" type="text/css" href="../css/iecss.css"/>
@@ -22,7 +27,7 @@
 
     <title>AT&amp;T Center Press Release</title>
     <meta name="description"
-          content="Spurs Sports & Entertainment and Bexar County have partnered with Musco to provide the AT&T Center with new state-of-the-art LED lighting as part of the $100+ million in technology and infrastructure renovations at the AT&T Center."/>
+          content="Spurs Sports &amp; Entertainment and Bexar County have partnered with Musco to provide the AT&amp;T Center with new state-of-the-art LED lighting as part of the $100+ million in technology and infrastructure renovations at the AT&amp;T Center."/>
     
     <script type="text/javascript">
 
@@ -42,78 +47,105 @@
     </script>
 </head>
 
-<body>
-<div id="wrapper">
-    <div class="breadCrumb">
+<body >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <ol class="breadcrumb">
+          <li><a href="../index.html">Home</a></li>
         <li class="active">AT&amp;T Center Press Release</li>
         </ol>
       </div><!-- col -->
     </div><!-- row -->
   </div><!-- container --> 
 
+  <!-- ========== Masthead =========  -->
+
+  <div class="container">
     <div id="masthead">
-        <div id="logo">
-            <a href="../index.html"><img src="../images/muscoLogo2.png" width="137" height="73"
-                                         alt="Musco Lighting Logo"/></a>
-      </div>
-        <div id="search">
-            <p class="makeItHappen"><img src="../images/ML_WMIH.jpg" width="264" height="16"
-                                         alt="Musco Sports Lighting We Make It Happen"/></p>
+      <div class="row">
+    
+        <div class="col-md-4 col-md-offset-1"> 
+            <a href="../index.html"><img class="img-responsive" src="../images/muscoLogo2.png" width="137" height="73" alt="Musco Lighting Logo" /></a>
+        </div><!-- col -->
+         <div class="col-md-6">
+         <div class="searchContainer">
+          <p class="makeItHappen"><img class="img-responsive" src="../images/ML_WMIH.jpg" width="264" height="16" alt="Musco Sports Lighting We Make It Happen" /></p>
 
-            <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-            <script type="text/javascript">
-                google.load('search', '1');
-                google.setOnLoadCallback(function () {
-                    google.search.CustomSearchControl.attachAutoCompletion(
-                            '016170081084010386661:wur9tp673c8',
-                            document.getElementById('q'),
-                            'cse-search-box');
-                });
-            </script>
-            <form action="http://www.musco.com/searchresults.html" id="cse-search-box">
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('search', '1');
+      google.setOnLoadCallback(function() {
+        google.search.CustomSearchControl.attachAutoCompletion(
+          '016170081084010386661:wur9tp673c8',
+          document.getElementById('q'),
+          'cse-search-box');
+      });
+        </script>
+          <form action="http://www.musco.com/SpryAssets/test/HTML/searchresults.html" id="cse-search-box" name="cse-search-box"><input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8" /> <input type="hidden" name="cof" value="FORID:10;NB:1" /> <input type="hidden" name="ie" value="UTF-8" /> <input class="formWidth" name="q" id="q" /> <input type="submit" name="sa" value="Search" /></form>
+        </div><!-- search -->
+      </div><!-- col -->
+     </div><!-- row -->
+    </div><!-- masthead -->
+  </div><!-- container -->
 
-                <input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8"/>
-                <input type="hidden" name="cof" value="FORID:10;NB:1"/>
-                <input type="hidden" name="ie" value="UTF-8"/>
-                <input class="formWidth" name="q" id="q"/>
-                <input type="submit" name="sa" value="Search"/>
-            </form>
-        </div>
-    </div>
-   <!--end of masthead -->
+<!-- =========== Navigation ===========  -->
 
-<div id="menuContainer">
-                <ul id="nav">
-                    <li><a href="../aboutus/overview.html">About Us</a>
-                     
-					</li>
-           		  			<li><a href="../sports/sports.html">Sports Lighting</a></li>
-           		  			<li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
-           		  			<li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
-                    		<li><a href="../clink/controlsystems.html">Facility Management</a></li>
-                    		<li><a href="../news/newsprojects.html">News & Projects</a>
-                
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="../aboutus/overview.html">About Us</a></li>
+               
+    
+              <li><a href="../sports/sports.html">Sports Lighting</a></li>
+              <li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
+              <li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
+              <li><a href="../clink/controlsystems.html">Facility Management</a></li>
+              <li><a href="../news/newsprojects.html">News &amp; Projects</a></li>
+          
+              
+           </ul>
+          </div><!-- myNavBor -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div> <!--container -->
+    </nav><!--navbar -->
     <!-- end of the menu-->
-    <div id="contentContainer">
-        <hr/>
 
+    <!-- ====== Content ===== -->
+
+  <section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <hr />
+        </div><!-- col -->
+      </div><!-- row -->
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
         <div class="pressReleaseBody">
-            <h1>MUSCO LED SYSTEM TO LIGHT UP THE AT&T CENTER</h1>
-            <p class="pressReleaseDate">
-                August 27, 2015
-      </p>
+            <h1>MUSCO LED SYSTEM TO LIGHT UP THE AT&amp;T CENTER</h1>
+            <p class="pressReleaseDate">August 27, 2015</p>
             <p>
-            <div style="width:350px; font-size:80%; float: right; margin: 0 0 15px 15px; padding-bottom: 5px; border-bottom: 1px solid #afafaf;"><img src="images/att.jpg" width="350" height="175" style="margin-bottom: 5px;" title="AT&T Center - San Antonio, TX, USA - LED lighting solution"/>
-            New State-of-the-Art LED Lighting System is Part of $100+ Million in Technology and Infrastructure Renovations at the Bexar County-Owned AT&T Center</div>
-               SAN ANTONIO, TX--Spurs Sports & Entertainment and <a href="http://www.bexar.org/" target="_blank">Bexar County</a> have partnered with Musco to provide the <a href="http://www.newattCenter.com" target="blank">AT&T Center</a> with new state-of-the-art LED lighting as part of the $100+ million in technology and infrastructure renovations at the AT&T Center.  The new <a href="http://www.musco.com">Musco</a> custom lighting system will include more than 200 luminaires and more than 40,000 LEDs featuring advanced individual optics that will direct the LEDs with pinpoint precision to dramatically reduce glare, enhance playability for athletes, improve HD broadcasts and create a stage-like atmosphere for spectators.  The increase in lighting performance will also reduce energy consumption by 78 percent.  
+            <div style="width:350px; font-size:80%; float: right; margin: 0 0 15px 15px; padding-bottom: 5px; border-bottom: 1px solid #afafaf;"><img class="img-responsive" src="images/att.jpg" width="350" height="175" style="margin-bottom: 5px;" title="AT&amp;T Center - San Antonio, TX, USA - LED lighting solution"/>
+            New State-of-the-Art LED Lighting System is Part of $100+ Million in Technology and Infrastructure Renovations at the Bexar County-Owned AT&amp;T Center</div>
+               SAN ANTONIO, TX--Spurs Sports &amp; Entertainment and <a href="http://www.bexar.org/" target="_blank">Bexar County</a> have partnered with Musco to provide the <a href="http://www.newattCenter.com" target="blank">AT&amp;T Center</a> with new state-of-the-art LED lighting as part of the $100+ million in technology and infrastructure renovations at the AT&amp;T Center.  The new <a href="http://www.musco.com">Musco</a> custom lighting system will include more than 200 luminaires and more than 40,000 LEDs featuring advanced individual optics that will direct the LEDs with pinpoint precision to dramatically reduce glare, enhance playability for athletes, improve HD broadcasts and create a stage-like atmosphere for spectators.  The increase in lighting performance will also reduce energy consumption by 78 percent.  
 
 
-            <p>"Technology enhancements are an important focal point of this renovation project," said Lori Warren, Spurs Sports & Entertainment SVP of Corporate Finance and Strategy.  "The new lighting system is a visible improvement that will help enhance the fan experience while reducing energy consumption and maintenance costs." 
+            <p>"Technology enhancements are an important focal point of this renovation project," said Lori Warren, Spurs Sports &amp; Entertainment SVP of Corporate Finance and Strategy.  "The new lighting system is a visible improvement that will help enhance the fan experience while reducing energy consumption and maintenance costs." 
          </p>
-         <p>   "Bexar County is proud of its reinvestment into the AT&T Center and these lighting upgrades and enhancements are a great step towards improving the experience for all patrons," said Bexar County Judge Nelson Wolff.
+         <p>   "Bexar County is proud of its reinvestment into the AT&amp;T Center and these lighting upgrades and enhancements are a great step towards improving the experience for all patrons," said Bexar County Judge Nelson Wolff.
 </p>
             <p>
               Additional lighting system capabilities include:
@@ -125,20 +157,20 @@
                 <li class="bwlistitemmargb">Musco's complete solution is engineered – incorporating advanced structural, electrical, and lighting components – to provide a cost-effective, trouble-free lighting system</li>
             </ul>
             
-            <p>"We've combined more than 35 years of system design and nearly a decade of research with the LED light source to provide our customers with unexpected levels of light control and reduced operating costs," said Jeff Rogers, Vice President, Musco Lighting. "We're proud to continue our relationship with the AT&T Center with the installation of this state-of-the-art system that will help the arena offer a unique experience for players and fans, while meeting sustainability goals."  
+            <p>"We've combined more than 35 years of system design and nearly a decade of research with the LED light source to provide our customers with unexpected levels of light control and reduced operating costs," said Jeff Rogers, Vice President, Musco Lighting. "We're proud to continue our relationship with the AT&amp;T Center with the installation of this state-of-the-art system that will help the arena offer a unique experience for players and fans, while meeting sustainability goals."  
             </p>
            
             
              <p>Visit <a href="http://www.newattCenter.com" target="blank">NewATTCenter.com</a> for renovation updates or to view renderings and details outlining changes to the arena.  The majority of the renovations are set to be completed by late October 2015.    
             </p>
             
-             <p>Funding for the renovations are provided by both Spurs Sports & Entertainment and the Bexar County Visitor Tax, established by voters in 1999 to build the AT&T Center.  In 2008, voters approved an extension of the tax to help fund the Tobin Center, the southern Mission Reach expansion of the River Walk, youth and amateur sports facilities, as well as improvements to the AT&T Center, Freeman Coliseum and rodeo grounds, all owned by Bexar County.  The Visitor Tax is paid through a 1.75 percent hotel occupancy tax and a 5 percent short-term motor vehicle rental tax to fund construction of venues and related infrastructure that enhance economic development and tourism.  
+             <p>Funding for the renovations are provided by both Spurs Sports &amp; Entertainment and the Bexar County Visitor Tax, established by voters in 1999 to build the AT&amp;T Center.  In 2008, voters approved an extension of the tax to help fund the Tobin Center, the southern Mission Reach expansion of the River Walk, youth and amateur sports facilities, as well as improvements to the AT&amp;T Center, Freeman Coliseum and rodeo grounds, all owned by Bexar County.  The Visitor Tax is paid through a 1.75 percent hotel occupancy tax and a 5 percent short-term motor vehicle rental tax to fund construction of venues and related infrastructure that enhance economic development and tourism.  
             </p>
             
             <p class="pressHeader">
-               About Spurs Sports & Entertainment
+               About Spurs Sports &amp; Entertainment
             </p>
-            <p>Spurs Sports & Entertainment is the premier provider of sports and entertainment in South Texas. SS&E owns and operates the San Antonio Spurs (NBA), San Antonio Rampage (AHL), San Antonio Stars (WNBA), Austin Spurs (NBA Development League) and also manages the day-to-day operations of the AT&T Center.
+            <p>Spurs Sports &amp; Entertainment is the premier provider of sports and entertainment in South Texas. SS&E owns and operates the San Antonio Spurs (NBA), San Antonio Rampage (AHL), San Antonio Stars (WNBA), Austin Spurs (NBA Development League) and also manages the day-to-day operations of the AT&amp;T Center.
             </p>
             
            
@@ -160,33 +192,33 @@
                     media.relations@musco.com</a>
         
             </p>
-        </div>
-    </div>
-    <!-- end of the content container-->
+          </div><!-- pressReleaseBody -->
+        </div><!-- col -->
+      </div><!-- row --> 
+    </div><!-- container --> 
+  </section><!-- content-section -->
 
-    <div id="footer">
-        <hr/>
-        <div class="sideA">
-            <a href="../index.html">Home</a> | <a href="../contactus/directory.html">Contact Us</a> | <a href="news.html">Project Showcase</a> | <a href="../legaldocs/termsofuse.pdf">Terms of Use</a><br/>
-        </div>
-        <div class="middle">
+  <footer> 
+    <hr />
+    
+    <div class="container">
+     
+      <div class="row">
+          <div class="col-md-4 col-md-offset-1">
+            <a href="../index.html">Home</a> | <a href="../contactus/directory.html">Contact Us</a> | <a href="../news/news.html">Project Showcase</a> | <a href="../legaldocs/termsofuse.pdf">Terms of Use</a><br />
+        </div><!-- col -->
+          
+      <div class="col-md-3">
+        ©2016 Musco Sports Lighting, LLC.
+      </div><!-- col -->
 
-            ©2016 Musco Sports Lighting, LLC.<br/>
-        </div>
-
-        <div class="sideB">
-            <a href="https://twitter.com/MuscoLighting" target="_blank"><img src="../images/TW.png" width="22"
-                                                                             height="22" alt="twitter logo"/></a><a
-                href="https://www.facebook.com/muscolighting" target="_blank"><img src="../images/FB.png" width="22"
-                                                                                   height="22" alt="Facebook logo"/></a><a
-                href="https://www.linkedin.com/company/musco-lighting" target="_blank"><img src="../images/IN.png"
-                                                                                            width="22" height="22"
-                                                                                            alt="Linked In logo"/></a><a
-                href="https://www.youtube.com/user/muscolightingllc/videos" target="_blank"><img
-                src="../images/youTube.png" width="22" height="22" alt="You Tube logo"/></a>
-        </div>
-    </div>
-</div>
-</div>  <!--end of the wrapper -->
+      <div class="col-md-3" id="footerSMI"> 
+          <a href="https://twitter.com/MuscoLighting" target="_blank"><img src="../images/TW.png" width="22" height="22" alt="twitter logo"/></a>
+          <a href="https://www.facebook.com/muscolighting" target="_blank"><img src="../images/FB.png" width="22" height="22" alt="Facebook logo"/></a>
+          <a href="https://www.linkedin.com/company/musco-lighting" target="_blank"><img src="../images/IN.png" width="22" height="22" alt="Linked In logo"/></a>
+          <a href="https://www.youtube.com/user/muscolightingllc/videos" target="_blank"><img src="../images/youTube.png" width="22" height="22" alt="You Tube logo"/></a>
+      </div><!-- col -->
+    </div><!-- row -->
+   </div><!-- container -->
 </body>
 </html>

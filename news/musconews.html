@@ -2,7 +2,12 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
 
     <!--[if lt IE 8]>
     <link rel="stylesheet" type="text/css" href="../css/iecss.css"/>
@@ -43,84 +48,118 @@
     </script>
 </head>
 
-<body>
-<div id="wrapper">
-    <div class="breadCrumb">
+<body >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <ol class="breadcrumb">
+          <li><a href="../index.html">Home</a></li>
         <li class="active">Musco News</li>
         </ol>
       </div><!-- col -->
     </div><!-- row -->
   </div><!-- container --> 
 
+  <!-- ========== Masthead =========  -->
+
+  <div class="container">
     <div id="masthead">
-        <div id="logo">
-            <a href="../index.html"><img src="../images/muscoLogo2.png" width="137" height="73"
-                                         alt="Musco Lighting Logo"/></a>
-        </div>
-        <div id="search">
-            <p class="makeItHappen"><img src="../images/ML_WMIH.jpg" width="264" height="16"
-                                         alt="Musco Sports Lighting We Make It Happen"/></p>
+      <div class="row">
+    
+        <div class="col-md-4 col-md-offset-1"> 
+            <a href="../index.html"><img class="img-responsive" src="../images/muscoLogo2.png" width="137" height="73" alt="Musco Lighting Logo" /></a>
+        </div><!-- col -->
+         <div class="col-md-6">
+         <div class="searchContainer">
+          <p class="makeItHappen"><img class="img-responsive" src="../images/ML_WMIH.jpg" width="264" height="16" alt="Musco Sports Lighting We Make It Happen" /></p>
 
-            <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-            <script type="text/javascript">
-                google.load('search', '1');
-                google.setOnLoadCallback(function () {
-                    google.search.CustomSearchControl.attachAutoCompletion(
-                            '016170081084010386661:wur9tp673c8',
-                            document.getElementById('q'),
-                            'cse-search-box');
-                });
-            </script>
-            <form action="http://www.musco.com/searchresults.html" id="cse-search-box">
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('search', '1');
+      google.setOnLoadCallback(function() {
+        google.search.CustomSearchControl.attachAutoCompletion(
+          '016170081084010386661:wur9tp673c8',
+          document.getElementById('q'),
+          'cse-search-box');
+      });
+        </script>
+          <form action="http://www.musco.com/SpryAssets/test/HTML/searchresults.html" id="cse-search-box" name="cse-search-box"><input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8" /> <input type="hidden" name="cof" value="FORID:10;NB:1" /> <input type="hidden" name="ie" value="UTF-8" /> <input class="formWidth" name="q" id="q" /> <input type="submit" name="sa" value="Search" /></form>
+        </div><!-- search -->
+      </div><!-- col -->
+     </div><!-- row -->
+    </div><!-- masthead -->
+  </div><!-- container -->
 
-                <input type="hidden" name="cx" value="010529372757077713797:wur9tp673c8"/>
-                <input type="hidden" name="cof" value="FORID:10;NB:1"/>
-                <input type="hidden" name="ie" value="UTF-8"/>
-                <input class="formWidth" name="q" id="q"/>
-                <input type="submit" name="sa" value="Search"/>
-            </form>
-        </div>
-    </div>
-   <!--end of masthead -->
+<!-- =========== Navigation ===========  -->
 
-<div id="menuContainer">
-                <ul id="nav">
-                    <li><a href="../aboutus/overview.html">About Us</a>
-                     
-					</li>
-           		  			<li><a href="../sports/sports.html">Sports Lighting</a></li>
-           		  			<li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
-           		  			<li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
-                    		<li><a href="../clink/controlsystems.html">Facility Management</a></li>
-                    		<li><a href="../news/newsprojects.html">News & Projects</a>
-                
-            </li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="../aboutus/overview.html">About Us</a></li>
+               
+    
+              <li><a href="../sports/sports.html">Sports Lighting</a></li>
+              <li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
+              <li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
+              <li><a href="../clink/controlsystems.html">Facility Management</a></li>
+              <li><a href="../news/newsprojects.html">News &amp; Projects</a></li>
+          
+              
+           </ul>
+          </div><!-- myNavBor -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div> <!--container -->
+    </nav><!--navbar -->
     <!-- end of the menu-->
-    <div id="contentContainer">
-        <hr/>
+
+    <!-- ====== Content ===== -->
+
+  <section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <hr />
+        </div><!-- col -->
+      </div><!-- row -->
+
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
         <div class="pressBody">
             <h1>Musco News</h1>
+        </div><!-- col -->
+      </div><!-- row -->
 
-<p class="projectShowcase">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <p class="projectShowcase">
                 <a href="press-alpine.html">
-                    <img src="images/alpine.jpg" width="280" height="140" title="University of Colorado Alpine Field - LED Lighting System"/>
+                    <img class="img-responsive" src="images/alpine.jpg" width="280" height="140" title="University of Colorado Alpine Field - LED Lighting System"/>
                 </a>Musco Engineers Solution to Solve Glare Issues at University of Colorado, Colorado Springs
 
-          </p>
+            </p>
 
             <p>COLORADO SPRINGS, CO--Musco’s innovative LED lighting system has helped the University of Colorado, Colorado Springs (UCCS) solve a major issue with the surrounding community.</p>
-<p>When lights were installed in 2014 at the University’s Alpine Field outdoor sports facility, residents who lived in the surrounding area immediately notified UCCS. Even though the original design met horizontal spill requirements, light from the luminaire was creating glare viewed from their homes. After the original lighting supplier was unable to find a  solution, UCCS contacted Musco&rsquo;s Colorado sales representative...
+            <p>When lights were installed in 2014 at the University’s Alpine Field outdoor sports facility, residents who lived in the surrounding area immediately notified UCCS. Even though the original design met horizontal spill requirements, light from the luminaire was creating glare viewed from their homes. After the original lighting supplier was unable to find a  solution, UCCS contacted Musco&rsquo;s Colorado sales representative...
             <a href="press-alpine.html">Read More</a>
             </p>
             <div class="newsSpacer"></div>
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-afc.html">
-                    <img src="images/afc.jpg" width="280" height="140" title="AFC Bournemouth Enters Premier League in Premier Fashion Solution"/>
+                    <img class="img-responsive" src="images/afc.jpg" width="280" height="140" title="AFC Bournemouth Enters Premier League in Premier Fashion Solution"/>
                 </a>AFC Bournemouth Enters Premier League in Premier Fashion
 
           </p>
@@ -132,25 +171,25 @@
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-sewell-thomas.html">
-                    <img src="images/musco_prGeneric.jpg" width="280" height="140" title="Sewell-Thomas Stadium Installs Innovative LED Lighting Solution"/>
+                    <img class="img-responsive" src="images/musco_prGeneric.jpg" width="280" height="140" title="Sewell-Thomas Stadium Installs Innovative LED Lighting Solution"/>
                 </a>Sewell-Thomas Stadium Installs Innovative LED Lighting Solution
 
           </p>
 
             <p>OSKALOOSA, IOWA--The University of Alabama’s Sewell – Thomas Stadium will soon make history as one of the first NCAA baseball fields lit with an LED light source.</p>
-<p>Familiar with Musco&rsquo;s innovative lighting  solutions, the University of Alabama has installed Musco&rsquo;s lighting systems at  several venues on campus including its tennis facility and the Sam Bailey Track  Stadium.        
-Musco&rsquo;s Light-Structure Green™ system using an LED  light source provides many benefits for players, spectators, and television  broadcasts.<a href="press-sewell-thomas.html"> Read More</a>
+            <p>Familiar with Musco&rsquo;s innovative lighting  solutions, the University of Alabama has installed Musco&rsquo;s lighting systems at  several venues on campus including its tennis facility and the Sam Bailey Track  Stadium.        
+            Musco&rsquo;s Light-Structure Green™ system using an LED  light source provides many benefits for players, spectators, and television  broadcasts.<a href="press-sewell-thomas.html"> Read More</a>
           </p>
             <div class="newsSpacer"></div>
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-nd.html">
-                    <img src="images/musco_prGeneric.jpg" width="280" height="140" title="Notre Dame Stadium To Feature State-of-the-Art Lighting Solution"/>
+                    <img class="img-responsive" src="images/musco_prGeneric.jpg" width="280" height="140" title="Notre Dame Stadium To Feature State-of-the-Art Lighting Solution"/>
                 </a>Notre Dame Stadium To Feature State-of-the-Art Lighting Solution
 
           </p>
@@ -161,9 +200,9 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <div class="newsSpacer"></div>
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-padres.html">
-                    <img src="images/padres.jpg" width="280" height="140" title="Petco Park To Install Musco’S LED Lighting This Offseason"/>
+                    <img class="img-responsive" src="images/padres.jpg" width="280" height="140" title="Petco Park To Install Musco’S LED Lighting This Offseason"/>
                 </a>Petco Park To Install Musco’S LED Lighting This Offseason
 
           </p>
@@ -174,10 +213,10 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-attstadium.html">
-                    <img src="images/attstadium.jpg" width="280" height="140" title="Dallas Cowboys to Feature Musco's LED Lighting System at AT&T Stadium"/>
-                </a>Dallas Cowboys to Feature Musco's LED Lighting System at AT&T Stadium
+                    <img class="img-responsive" src="images/attstadium.jpg" width="280" height="140" title="Dallas Cowboys to Feature Musco's LED Lighting System at AT&T Stadium"/>
+                </a>Dallas Cowboys to Feature Musco's LED Lighting System at AT&amp;T Stadium
 
             </p>
 
@@ -187,9 +226,9 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-att.html">
-                    <img src="images/att.jpg" width="280" height="140" title="Musco LED System to Light up the AT&T Center"/>
+                    <img class="img-responsive" src="images/att.jpg" width="280" height="140" title="Musco LED System to Light up the AT&T Center"/>
                 </a>Musco LED System to Light up the AT&T Center
 
             </p>
@@ -202,9 +241,9 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
 
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-emirates.html">
-                    <img src="images/emirates.jpg" width="280" height="140" title="Emirates Stadium showcases Musco's LED Lighting Solution"/>
+                    <img class="img-responsive" src="images/emirates.jpg" width="280" height="140" title="Emirates Stadium showcases Musco's LED Lighting Solution"/>
                 </a>Emirates Stadium showcases Musco's LED Lighting Solution
 
             </p>
@@ -216,9 +255,9 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-bournemouth.html">
-                    <img src="images/bournemouth.jpg" width="280" height="140" title="AFC Bournemouth - LED Lighting System"/>
+                    <img class="img-responsive" src="images/bournemouth.jpg" width="280" height="140" title="AFC Bournemouth - LED Lighting System"/>
                 </a>AFC Bournemouth Announces New Musco LED Lighting System
 
             </p>
@@ -230,9 +269,9 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <div class="newsSpacer"></div>
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
 
-<p class="projectShowcase">
+        <p class="projectShowcase">
                 <a href="press-seminole.html">
-                    <img src="images/seminole.jpg" width="280" height="140" title="Seminole County Sports Complex - LED Lighting System"/>
+                    <img class="img-responsive" src="images/seminole.jpg" width="280" height="140" title="Seminole County Sports Complex - LED Lighting System"/>
                 </a>Seminole County Set to Install Musco LED Lighting System at New Sports Complex
 
             </p>
@@ -244,7 +283,7 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
           
            <p class="projectShowcase">
                 <a href="press-statueliberty.html">
-                    <img src="images/statue.jpg" width="280" height="140" title="Statue of Liberty National Monument - New York, New York, USA - LED lighting solution"/>
+                    <img class="img-responsive" src="images/statue.jpg" width="280" height="140" title="Statue of Liberty National Monument - New York, New York, USA - LED lighting solution"/>
                 </a>New LED Lighting System Will Illuminate Statue of Liberty July 7
 
             </p>
@@ -255,18 +294,18 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">
           <p class="projectShowcase">
                 <a href="press-rushmore.html">
-                    <img src="images/rushmore.jpg" width="280" height="140" title="Mount Rushmore National Memorial - LED light source"/>
+                    <img class="img-responsive" src="images/rushmore.jpg" width="280" height="140" title="Mount Rushmore National Memorial - LED light source"/>
                 </a>Mount Rushmore Introduces Unique Lighting System
 
             </p>
 
-            <p>KEYSTONE, SD & OSKALOOSA, IA--The more than two million visitors who travel to Mount Rushmore National Memorial each year will now enjoy an enhanced night time viewing experience, thanks to an innovative new lighting system with an LED light source that was recently installed at the memorial. The new system, custom designed and manufactured by Musco, will result in substantially less light pollution, while dramatically improving the lighting at the national memorial and saving energy. <a href="press-rushmore.html">Read More</a>
+            <p>KEYSTONE, SD &amp; OSKALOOSA, IA--The more than two million visitors who travel to Mount Rushmore National Memorial each year will now enjoy an enhanced night time viewing experience, thanks to an innovative new lighting system with an LED light source that was recently installed at the memorial. The new system, custom designed and manufactured by Musco, will result in substantially less light pollution, while dramatically improving the lighting at the national memorial and saving energy. <a href="press-rushmore.html">Read More</a>
             </p>
             <div class="newsSpacer"></div>
             <hr style="margin: 10px; border-top: 1px solid #cdcdcd; border-bottom: none; border-right: none; border-left: none;">  
              <p class="projectShowcase">
                 <a href="press-iowaevents.html">
-                    <img src="images/iowaEventsCenter.jpg" width="280" height="140" title="Iowa Events Center - LED light source"/>
+                    <img class="img-responsive" src="images/iowaEventsCenter.jpg" width="280" height="140" title="Iowa Events Center - LED light source"/>
                 </a>Iowa Events Center Announces Installation of Musco's LED Lighting System
 
             </p>
@@ -280,7 +319,7 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
 
             <p class="projectShowcase">
                 <a href="press-moonstone.html">
-                    <img src="images/moonstone.jpg" width="280" height="140" title="Moonstone Resort, LED Lights"/>
+                    <img class="img-responsive" src="images/moonstone.jpg" width="280" height="140" title="Moonstone Resort, LED Lights"/>
                 </a>Mount St. Louis Moonstone among First Ski Resorts with LED Lights
 
             </p>
@@ -294,7 +333,7 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
 
             <p class="projectShowcase">
                 <a href="press-pistons.html">
-                    <img src="images/palace.jpg" width="280" height="140" title="Musco LED System Shines at The Palace of Auburn Hills"/>
+                    <img class="img-responsive" src="images/palace.jpg" width="280" height="140" title="Musco LED System Shines at The Palace of Auburn Hills"/>
                 </a>Musco LED System Shines at The Palace of Auburn Hills
 
             </p>
@@ -312,7 +351,7 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
             
             <p class="projectShowcase">
                 <a href="press-wfc.html">
-                    <img src="images/wfc.jpg" width="280" height="140" title="Wells Fargo Center - Philadelphia, Pennsylvania - LED lighting solution"/>
+                    <img class="img-responsive" src="images/wfc.jpg" width="280" height="140" title="Wells Fargo Center - Philadelphia, Pennsylvania - LED lighting solution"/>
                 </a>Wells Fargo Center Becomes One of the First NHL and NBA Arenas to Feature LED Lighting System
 
             </p>
@@ -329,12 +368,12 @@ Musco&rsquo;s Light-Structure Green™ system using an LED  light source provide
 
             <p class="projectShowcase">
                 <a href="press-pnc.html">
-                    <img src="images/pnc.jpg" width="280" height="140" title="PNC Arena to Unveil New LED Lights"/>
+                    <img class="img-responsive" src="images/pnc.jpg" width="280" height="140" title="PNC Arena to Unveil New LED Lights"/>
                 </a>PNC Arena to Unveil New LED Lights
 
             </p>
             <p>
-                RALEIGH, N.C. & OSKALOOSA, Iowa--PNC Arena, home to the
+                RALEIGH, N.C. &amp; OSKALOOSA, Iowa--PNC Arena, home to the
 National Hockey League's Carolina Hurricanes, will usher in a new era for professional sports this season as the first NHL venue in the U.S. to feature LED lighting. The Centennial Authority has invested $650,000 in the innovative new system. This system represents the continuation of a relationship between the Centennial Authority, which owns PNC Arena, and Musco, which installed the facility's original lights when it opened in 1999.
 
                 <a href="press-pnc.html">Read More</a>
@@ -345,7 +384,7 @@ National Hockey League's Carolina Hurricanes, will usher in a new era for profes
 
             <p class="projectShowcase">
                 <a href="press-lakepoint.html">
-                    <img src="images/lakepoint.jpg" width="280" height="140" title="PNC Arena to Unveil New LED Lights"/>
+                    <img class="img-responsive" src="images/lakepoint.jpg" width="280" height="140" title="PNC Arena to Unveil New LED Lights"/>
                 </a>LakePoint is the first multi-field sports complex to use Musco's LED lighting
 
             </p>
@@ -355,33 +394,33 @@ National Hockey League's Carolina Hurricanes, will usher in a new era for profes
                 <a href="press-lakepoint.html">Read More</a>
             </p>
 
-        </div>
-    </div>
-    <!-- end of the content container-->
+        </div><!-- col -->
+     </div><!-- row --> 
+    </div><!-- container --> 
+  </section><!-- content-section -->
 
-    <div id="footer">
-        <hr/>
-        <div class="sideA">
-            <a href="../index.html">Home</a> | <a href="../contactus/directory.html">Contact Us</a> | <a href="news.html">Project Showcase</a> | <a href="../legaldocs/termsofuse.pdf">Terms of Use</a><br/>
-        </div>
-        <div class="middle">
+ <footer> 
+    <hr />
+    
+    <div class="container">
+     
+      <div class="row">
+          <div class="col-md-4 col-md-offset-1">
+            <a href="../index.html">Home</a> | <a href="../contactus/directory.html">Contact Us</a> | <a href="../news/news.html">Project Showcase</a> | <a href="../legaldocs/termsofuse.pdf">Terms of Use</a><br />
+        </div><!-- col -->
+          
+      <div class="col-md-3">
+        ©2016 Musco Sports Lighting, LLC.
+      </div><!-- col -->
 
-            ©2016 Musco Sports Lighting, LLC.<br/>
-        </div>
-
-        <div class="sideB">
-            <a href="https://twitter.com/MuscoLighting" target="_blank"><img src="../images/TW.png" width="22"
-                                                                             height="22" alt="twitter logo"/></a><a
-                href="https://www.facebook.com/muscolighting" target="_blank"><img src="../images/FB.png" width="22"
-                                                                                   height="22" alt="Facebook logo"/></a><a
-                href="https://www.linkedin.com/company/musco-lighting" target="_blank"><img src="../images/IN.png"
-                                                                                            width="22" height="22"
-                                                                                            alt="Linked In logo"/></a><a
-                href="https://www.youtube.com/user/muscolightingllc/videos" target="_blank"><img
-                src="../images/youTube.png" width="22" height="22" alt="You Tube logo"/></a>
-        </div>
-    </div>
-</div>
-</div>  <!--end of the wrapper -->
+      <div class="col-md-3" id="footerSMI"> 
+          <a href="https://twitter.com/MuscoLighting" target="_blank"><img src="../images/TW.png" width="22" height="22" alt="twitter logo"/></a>
+          <a href="https://www.facebook.com/muscolighting" target="_blank"><img src="../images/FB.png" width="22" height="22" alt="Facebook logo"/></a>
+          <a href="https://www.linkedin.com/company/musco-lighting" target="_blank"><img src="../images/IN.png" width="22" height="22" alt="Linked In logo"/></a>
+          <a href="https://www.youtube.com/user/muscolightingllc/videos" target="_blank"><img src="../images/youTube.png" width="22" height="22" alt="You Tube logo"/></a>
+      </div><!-- col -->
+    </div><!-- row -->
+   </div><!-- container -->
+  </footer> 
 </body>
 </html>

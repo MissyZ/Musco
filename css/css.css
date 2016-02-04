@@ -10,12 +10,7 @@
 
 
 
-.phone {
-    color: #000;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-}
+
 
 
 
@@ -339,9 +334,7 @@ label {
 /*
 mark up for the news page
 */
-
-.pressReleaseBody{
-    margin: 15px 130px 15px 130px;
+.pressReleaseBody {
     font-size: 98%;
     line-height: 120%;
 }
@@ -349,7 +342,7 @@ mark up for the news page
 .pressHeader{
     font-weight: bold;
     color: #4c6d9e;
-    margin-bottom: -8px;
+    margin-bottom: 2px;
 }
 
 .pressReleaseBody h1{
@@ -395,13 +388,6 @@ mark up for the news page
     margin-right: 30px;
 }
 
-#newsAside {
-    clear: left;
-    float: left;
-    width: 430px;
-    display: inline;
-    margin-left: 30px;
-}
 
 #newsAside img {
     float: left;
@@ -651,7 +637,7 @@ hr {
 }
 
 
-#searchContainer {
+.searchContainer {
     height: 50px;
     margin-top: 0px;
     float: right;
@@ -1116,7 +1102,7 @@ footer a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 600px;
     height: 100%;
 }
 
@@ -1126,4 +1112,28 @@ footer a:hover {
     font-weight: bold;
     color: #4c6d9e;
 }
+
+/*===== Sales Reps =====*/
+
+.phone {
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+table.c2 {
+    margin-left: 0;
+}
+
+/*Media Queries*/
+
+@media (min-width: @screen-md-min) {
+
+    .makeItHappen {
+        float: left;
+        text-align: left;
+    }
+}
+
+
 
