@@ -5,17 +5,6 @@
 
 /*  ye olde blue: 1c3664  */
 
-
-
-
-
-
-
-
-
-
-
-
 .muscoBlue {
     color: #4c6d9e;
 }
@@ -29,8 +18,6 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
-
 
 
 .instruction {
@@ -441,6 +428,7 @@ mark up for the news page
 
 .jvw {
     border: solid 1px #cdcdcd;
+    margin-top: 10px;
     padding: 15px 25px 15px 25px;
     text-align: left;
 }
@@ -586,7 +574,7 @@ a:hover {
 }
 
 a:visited {
-    color: #333;
+    color: #4c6d9e;
     font-weight: 700;
     text-decoration: none;
 }
@@ -774,9 +762,6 @@ footer {
 
 footer hr {
     border-top: 1px dotted #949494;
-    margin-bottom: 15px;
-    margin-left: 13.5%;
-    width: 71%;
 }
 
 #footerSMI {
@@ -803,6 +788,20 @@ footer a:hover {
     color: #949494;
 }
 
+/*========Index Page =======*/
+
+.content3ColContainer {
+    max-width: 1000px;
+}
+.indexQuickLinks  {
+    margin-bottom: 8px !important;
+    margin-top: 1px;
+    border-top: 1px solid #afafaf;
+    margin-bottom: 3px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
 
  /*=====  Carousel ==== */
 
@@ -837,9 +836,6 @@ footer a:hover {
     margin-bottom: 12px;
 }
 
-/*.col-md-5.col-md-offset-1#weMakeIt,  .col-md-5.col-md-offset-1#weMakeIt {
-    margin-left: 7.333%;
-}*/
 
 .contactUsHeader {
     padding: 0px;
@@ -886,6 +882,19 @@ footer a:hover {
 
 .sportsSubHeaders {
     margin-left: -15px;
+}
+
+#recentProjects {
+    border-left: 1px solid #CDCDCD;
+    padding-left: 20px;
+}
+
+#recentProjects img {
+    padding-bottom: 12px;
+}
+
+#servicesPar2 {
+    height: 27px;
 }
 
     /* ====== Outdoor Custom Fabrication ===== */
