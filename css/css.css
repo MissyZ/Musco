@@ -408,7 +408,10 @@ mark up for the news page
     padding: 0px;
 }
 
+.showcaseContent {
+    float: right;
 
+}
 
 .newsSpacer {
     clear: left;
