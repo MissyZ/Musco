@@ -208,21 +208,13 @@ Partnership form Mark-ups
 */
 
 #partnerMiddle {
-    width: 240px;
     float: left;
 
 }
 
-#partnerRight {
-    float: right;
-    width: 380px;
-
-}
 
 #partnerLeft {
     float: left;
-    width: 380px;
-
 }
 
 #partnerRight fieldset {
@@ -233,8 +225,10 @@ Partnership form Mark-ups
 }
 
 #partnerRight legend {
+    border-bottom: none;
     margin-left: 123px;
     color: #000000;
+    font-size: 1em;
     font-weight: bold;
 }
 
