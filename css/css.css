@@ -1153,12 +1153,24 @@ footer a:hover {
 }
 
 @media screen and (min-width: 481px) and (max-width: 991px) {
-    
+
     #footerSMI {
         float: right;
         margin-top: -30px;
     }
 
+}
+
+@media screen and (max-width: 750px) {
+    .tableResponsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #DDD;
+    }
 }
 
 
@@ -1167,15 +1179,32 @@ footer a:hover {
     #recentProjects {
         border: none;
     }
+
+    .col-sm-offset-1 {
+       margin-left: 0;
+    }
+
+    .col-md-offset-1 {
+       margin-left: 0;
+    }
+
 }
 
+@media screen and (max-width: 1200px) {
+    
+    nav ul li {
+        margin-right: 0;
+    }
 
+}
 @media screen and (min-width: 1200px) {
 
     #recentProjects {
         padding-left: 50px;
     }
 }
+
+
 
 
 
