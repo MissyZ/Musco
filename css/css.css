@@ -446,7 +446,7 @@ mark up for the news page
 }
 
 .pressBody{
-    margin: 15px 35px 15px 30px;
+    margin: 15px 35px 15px 0;
 
 }
 
@@ -766,7 +766,8 @@ footer hr {
 }
 
 #footerSMI {
-    float: right;
+    width: 200px;
+    text-align: right;
 
 }
 
@@ -777,6 +778,7 @@ footer hr {
 
 footer a:link {
     color: #949494;
+    font-weight: normal;
     text-decoration: none;
 }
 
@@ -788,6 +790,7 @@ footer a:visited {
 footer a:hover {
     color: #949494;
 }
+
 
 /*========Index Page =======*/
 
@@ -1162,15 +1165,33 @@ footer a:hover {
     #footerSMI {
         float: left;
         padding-top: 5px;
+        text-align: left;
     }
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 991px) {
+@media screen and (min-width: 481px) and (max-width: 750px) {
 
     #footerSMI {
         float: right;
         margin-top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 990px) {
+
+    #footerSMI {
+        float: right;
+        margin-top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+    #footerSMI {
+        text-align: center;
     }
 
 }
