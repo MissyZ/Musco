@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="Scripts/modernizr.custom.js"></script>
 
 <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="../css/css.css" />
@@ -96,16 +97,13 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="../aboutus/overview.html">About Us</a></li>
-               
-    
+              <li><a href="../aboutus/overview.html">About Us</a></li>              
               <li><a href="../sports/sports.html">Sports Lighting</a></li>
               <li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
               <li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
               <li><a href="../clink/controlsystems.html">Facility Management</a></li>
               <li><a href="../news/newsprojects.html">News &amp; Projects</a></li>
-          
-              
+                        
            </ul>
           </div><!-- myNavBor -->
           </div><!-- col -->
@@ -130,45 +128,130 @@
             
             <p class="first">Musco is a long-time supporter of organizations that provide recreational opportunities.  We are proud to offer our assistance as a lighting resource to help ensure a safer, quality playing environment. 
               </p>
-              <p style="height:580px;">         
-                <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900" height="580">
-                  <param name="movie" value="partners/muscoPartners.swf" />
-                  <param name="quality" value="high" />
-                  <param name="wmode" value="opaque" />
-                  <param name="swfversion" value="6.0.65.0" />
-                  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-                  <param name="expressinstall" value="../scripts/expressInstall.swf" />
-                  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-                  <!--[if !IE]>-->
-                  <object type="application/x-shockwave-flash" data="partners/muscoPartners.swf" width="900" height="580">
-                    <!--<![endif]-->
-                    <param name="quality" value="high" />
-                    <param name="wmode" value="opaque" />
-                    <param name="swfversion" value="6.0.65.0" />
-                    <param name="expressinstall" value="../scripts/expressInstall.swf" />
-                    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-                    <div>
-
-                      <center>
-                        <img class="img-responsive" src="partners/images/hero_screenshot.jpg" alt="partnership links image" border="0" usemap="#Map" />
-                        <map name="Map" id="Map">
-                          <area shape="rect" coords="29,20,180,131" href="partners/asa.html" alt="ASA logo"/>
-                          <area shape="rect" coords="180,20,330,133" href="partners/baberuth.html" alt="Babe Ruth logo" />
-                          <area shape="rect" coords="329,20,481,132" href="partners/littleleague.html" alt="Little League logo" />
-                          <area shape="rect" coords="479,23,631,131" href="partners/ehf.html" alt="EHF logo"/>
-                          <area shape="rect" coords="29,133,181,247" href="partners/nrpa.html" alt="NRPA logo" />
-                          <area shape="rect" coords="329,132,479,248" href="partners/ussoccer.html" alt="U.S. Soccer Foundation logo" />
-                          <area shape="rect" coords="329,248,480,363" href="partners/niaaa.html" alt="NIAAA logo" />
-                          <area shape="rect" coords="329,364,481,478" href="partners/fih.html" alt="FIH logo" />
-                        </map>
-                      </center>
-                    </div>
-                    <!--[if !IE]>-->
-                  </object>
-                  <!--<![endif]-->
-                </object>
-              </p>
               
+            <ul class="grid cs-style-1">
+
+              <li>
+                <figure>
+                  <img src="images/partners/usa_softball.jpg" alt="Amateur softball association of America logo">
+                  <figcaption>
+                    <h3>Amateur Softball Association of America</h3>
+                    <p><a href="partners/asa.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+               <li>
+                <figure>
+                  <img src="images/partners/babe_ruth.jpg" alt="Babe Ruth League, Inc. logo">
+                  <figcaption>
+                    <h3>Babe Ruth League, Inc.</h3>
+                    <p><a href="partners/baberuth.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/balls.jpg" alt="Little League logo">
+                  <figcaption>
+                    <h3>Little League® Baseball &amp; Softball</h3>
+                    <p><a href="partners/littleleague.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/ehf.jpg" alt="European Hockey League logo">
+                  <figcaption>
+                    <h3>European Hockey League</h3>
+                    <p><a href="partners/ehf.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/nrpa.jpg" alt="National Recreation &amp; Park Association logo">
+                  <figcaption>
+                    <h3>National Recreation and Park Association</h3>
+                    <p><a href="partners/nrpa.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/niaaa.jpg" alt="NIAAA logo">
+                  <figcaption id="niaaa">
+                    <h3>The National Interscholastic Athletic Administrators Association</h3>
+                    <p><a href="partners/niaaa.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/usa_soccer.jpg" alt="US Soccer Foundation logo">
+                  <figcaption>
+                    <h3>US Soccer Foundation</h3>
+                    <p><a href="partners/ussoccer.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/ncaa.jpg" alt="NCAA logo">
+                  <figcaption>
+                    <h3>National Collegiate Athletic Association</h3>
+                    
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/espn_wws.jpg" alt="ESPN WWS logo">
+                  <figcaption>
+                    <h3>ESPN Wide World of Sports Complex</h3>
+                    
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/baseball_tomorrow.jpg" alt="Baseball Tomorrow logo">
+                  <figcaption>
+                    <h3>The Baseball Tomorrow Fund</h3>
+                    
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/fih.jpg" alt="FIH logo">
+                  <figcaption>
+                    <h3>International Hockey Federation</h3>
+                    <p><a href="partners/fih.html">click for details</a></p>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="images/partners/minor_league_baseball.jpg" alt="Minor League Baseball logo">
+                  <figcaption>
+                    <h3>Minor League Baseball</h3>
+                    
+                  </figcaption>
+                </figure>
+              </li>
+
+            </ul>
           </div><!-- col -->
         </div><!-- row -->
           
@@ -204,8 +287,6 @@
       </footer> 
     </div>  
   
-  <script type="text/javascript">
-  swfobject.registerObject("FlashID");
-  </script>
+  <script src="Scripts/toucheffects.js"></script>
 </body>
 </html>

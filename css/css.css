@@ -91,11 +91,6 @@ img.centered {
 
 
 
-#references {
-    margin-left: 30px;
-    margin-bottom: 25px;
-}
-
 #table {
     margin-top: 15px;
     line-height: 135%;
@@ -852,6 +847,128 @@ footer a:hover {
     font-size: 100%;
 }
 
+
+
+
+/*===== Awards Page =====*/
+
+
+.awards {
+    border-left: 2px solid #CDCDCD;
+    height: 325px;
+    text-align: center;
+}
+
+.awards:nth-child(3n) {
+    border-left: none;
+}
+
+
+.awards h4  {
+    color: #333;
+    font-size: 1.25em;
+}
+
+.awards p {
+    font-size: 1em;
+}
+
+
+/*===== Partners Page =====*/
+
+.grid {
+    padding: 20px 20px 100px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+
+.grid li {
+    display: inline-block;
+    width: 150px;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #005FA2;
+}
+
+.grid figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+/* Individual Caption Styles */
+
+/* Caption Style 1 */
+.cs-style-1 figcaption {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translate(15px, 15px);
+    -moz-transform: translate(15px, 15px);
+    -ms-transform: translate(15px, 15px);
+    transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+    font-size: .9em;
+    font-weight: 700;
+}
+
+figcaption p {
+    padding-top: 25px;
+}
+
+.cs-style-1 figcaption a {
+    color: #CDCDCD;
+    font-size: .85em;
+    font-weight: 600;
+}
+
+#niaaa {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#niaaa p {
+
+    padding-top: 50px;
+}
+
 /*===== Career Page ======*/
 
 #careerImg {
@@ -868,6 +985,25 @@ footer a:hover {
 #contactUsFindRep {
     color: #4c6d9e;
     font-size: 95%;
+}
+
+/*===== Sales Reps =====*/
+
+.phone {
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+/*===== View Sales Associates =====*/
+
+#references {
+    margin-bottom: 25px;
+}
+
+#references .bigfont {
+    padding-top: 15px;
 }
 
 /*===== Sports Lighting ===== */
@@ -1139,16 +1275,20 @@ footer a:hover {
     color: #4c6d9e;
 }
 
-/*===== Sales Reps =====*/
-
-.phone {
-    color: #000;
-    margin-top: 2px;
-    margin-bottom: 10px;
-}
 
 
 /*=== Media Queries ===*/
+
+
+@media screen and (max-width: 31.5em) {
+    .grid {
+        padding: 10px 10px 100px 10px;
+    }
+    .grid li {
+        width: 100%;
+        min-width: 300px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     
@@ -1222,6 +1362,10 @@ footer a:hover {
     .navbar .col-md-offset-1 {
        margin-left: 0;
     }
+
+    .awards:nth-child(1n) {
+    border-left: none;
+}
 
 }
 

@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap -->
+
+<!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="../css/css.css" />
@@ -40,7 +43,7 @@ var _gaq = _gaq || [];
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <ol class="breadcrumb">
-        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
           <li><a href="overview.html">About Us</a></li>
         <li class="active">Industry Awards</li>
       </ol>
@@ -99,17 +102,19 @@ var _gaq = _gaq || [];
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li><a href="../aboutus/overview.html">About Us</a></li>
-   		  			<li><a href="../sports/sports.html">Sports Lighting</a></li>
-   		  			<li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
-   		  			<li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
-          		<li><a href="../clink/controlsystems.html">Facility Management</a></li>
-          		<li><a href="../news/newsprojects.html">News &amp; Projects</a></li>
-        </ul>
-      </div><!-- myNavBor -->
-      </div><!-- col -->
-    </div> <!--container -->
-  </nav><!--navbar -->
+              <li><a href="../aboutus/overview.html">About Us</a></li>              
+              <li><a href="../sports/sports.html">Sports Lighting</a></li>
+              <li><a href="../largearea/largearea.html">Large Area Lighting</a></li>
+              <li><a href="../temporary/temporary.html">Temporary Lighting</a></li>
+              <li><a href="../clink/controlsystems.html">Facility Management</a></li>
+              <li><a href="../news/newsprojects.html">News &amp; Projects</a></li>
+                        
+           </ul>
+          </div><!-- myNavBor -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div> <!--container -->
+    </nav><!--navbar -->
     <!-- end of the menu-->
 
     <!-- ===== Container ====== -->
@@ -124,8 +129,23 @@ var _gaq = _gaq || [];
           manufacture of sports lighting.  Major television networks have relied on Musco to provide quality lighting 
           to meet their special needs.</p>
   <p>&nbsp;</p>
-            <p>
-            <img class="img-responsive" src="images/Awards900x290.jpg" width="900" height="290" alt="Musco Sports Lighting Industry Awards" /></p>
+            <div class="col-md-4 col-sm-5 col-xs-7 awards" >
+              <img src="images/academy.jpg" alt="Musco Sports Lighting Academy Award" align="middle"/>
+              <h4><strong>Academy Award</strong></h4>
+              <p><strong>The Academy of Motion Picture Arts and Sciences awarded Musco and Academy Award for scientific and engineering achievement in film lighting.</strong></p>
+            </div>
+
+            <div class="col-md-4 col-sm-5 col-xs-7 awards">
+              <img src="images/emmy.jpg" alt="Musco Sports Lighting Emmy" align="middle"/>
+              <h4><strong>Emmy Award</strong></h4>
+              <p><strong>Musco was awarded an Emmy by the Academy of Television Arts and Sciences for lighting the NCAA football telecasts.</strong></p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-7 awards" id="waterbury">
+              <img src="images/waterbury.jpg" alt="Musco Sports Lighting Waterbury Award" align="middle"/>
+              <h4><strong>International Lighting Design Award</strong></h4>
+              <p><strong>The 1993 Paul Waterbury Award of Excellence for Outdoor Lighting, one of two presented worldwide, was awarded to Musco for innovative design at the Charlotte Motor Speedway.</strong></p>
+            </div>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -162,8 +182,6 @@ var _gaq = _gaq || [];
         </div><!-- row -->
       </div><!-- container -->
     </footer> 
-</div>  <!--end of the wrapper -->
-
 
 </body>
 </html>
