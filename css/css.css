@@ -855,7 +855,7 @@ footer a:hover {
 
 .awards {
     border-left: 2px solid #CDCDCD;
-    height: 325px;
+    min-height: 325px;
     text-align: center;
 }
 
